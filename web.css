@@ -1,0 +1,40 @@
+nav {
+    display:flex;
+    background-color: darkorange;
+    /* margin: 20px;
+    padding: 50px; */
+    
+
+}
+nav a{
+    padding: 15px;
+    text-align: end;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+nav img{
+    width: 150px;
+}
+body{
+        font-family: "Roboto", sans-serif;
+    }
+
+    .accessories{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 50px;
+
+
+    }
+
+.accessories img {
+    width: 350px;
+    height:350px;
+    padding: 5px;
+    margin-left: 200px;
+    
+}
+
+nav img:hover {
+    box-shadow: 5px 10px 12px grey;
+}

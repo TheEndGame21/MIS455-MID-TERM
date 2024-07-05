@@ -38,3 +38,14 @@ body{
 nav img:hover {
     box-shadow: 5px 10px 12px grey;
 }
+ 
+nav li a:hover {
+    text-decoration: underline;
+    color: aqua;
+    ;
+}
+
+nav ul li {
+    display: inline;
+    
+}
